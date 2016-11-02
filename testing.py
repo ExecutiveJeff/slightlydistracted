@@ -27,7 +27,7 @@ def buildPost():
     output = ''
     while len(output) < 500:
         output += (' ' + buildTweet())
-        print output, len(output)
+#        print output, len(output)
     return output
 
 if __name__ == '__main__':
